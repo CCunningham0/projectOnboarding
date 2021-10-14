@@ -25,8 +25,7 @@ public class JavaChallenge {
 		while (newMap.containsKey(key)) {
 			for (String value : newMap.values()) {
 				System.out.println(value);
-			}
-			;
+			};
 			key = null;
 		}
 	}
